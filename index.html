@@ -13,6 +13,20 @@
             body, input, select, textarea, h1, h2, h3, h4, h5, h6, p, a, li {
                 font-family: 'Garamond', serif;
             }
+
+            /* Background image */
+            #bg {
+                background-image: url('bg.jpg');
+                background-size: cover;
+                background-position: center;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1; /* Make sure it stays behind other content */
+                opacity: 0.8; /* Optional: Add a slight transparency */
+            }
         </style>
     </head>
     <body class="is-preload">
@@ -46,22 +60,21 @@
                     <div id="main">
 
                         <!-- Team -->
-<article id="team">
-    <h2 class="major">Team</h2>
-    <div style="display: flex; justify-content: space-between; gap: 40px;">
-        <!-- First team member -->
-        <div style="flex: 1; text-align: center;">
-            <span class="image"><img src="GiacomoBocanegra.jpg" alt="Giacomo N. Bocanegra" style="width: 100%; max-width: 300px; margin-bottom: 20px;" /></span>
-            <p>Giacomo N. Bocanegra is the Founder and Portfolio Manager of Bocanegra Asset Management LP (“BAM”). Prior to founding BAM in 2022, Mr. Bocanegra held research roles at Lucerne Capital Management and Wells Fargo.</p>
-        </div>
-        <!-- Second team member -->
-        <div style="flex: 1; text-align: center;">
-            <span class="image"><img src="GianlucaBocanegra.JPG" alt="Second Team Member" style="width: 100%; max-width: 300px; margin-bottom: 20px;" /></span>
-            <p>Gianluca V. Bocanegra is a Senior Analyst at Bocanegra Asset Management LP (“BAM”). Prior to joining the firm in 2024, Mr. Bocanegra was an equity analyst at Madrigal Management covering industrials, materials, and energy.</p>
-        </div>
-    </div>
-</article>
-
+                        <article id="team">
+                            <h2 class="major">Team</h2>
+                            <div style="display: flex; justify-content: space-between; gap: 40px;">
+                                <!-- First team member -->
+                                <div style="flex: 1; text-align: center;">
+                                    <span class="image"><img src="GiacomoBocanegra.jpg" alt="Giacomo N. Bocanegra" style="width: 100%; max-width: 300px; margin-bottom: 20px;" /></span>
+                                    <p>Giacomo N. Bocanegra is the Founder and Portfolio Manager of Bocanegra Asset Management LP (“BAM”). Prior to founding BAM in 2022, Mr. Bocanegra held research roles at Lucerne Capital Management and Wells Fargo.</p>
+                                </div>
+                                <!-- Second team member -->
+                                <div style="flex: 1; text-align: center;">
+                                    <span class="image"><img src="GianlucaBocanegra.JPG" alt="Second Team Member" style="width: 100%; max-width: 300px; margin-bottom: 20px;" /></span>
+                                    <p>Gianluca V. Bocanegra is a Senior Analyst at Bocanegra Asset Management LP (“BAM”). Prior to joining the firm in 2024, Mr. Bocanegra was an equity analyst at Madrigal Management covering industrials, materials, and energy.</p>
+                                </div>
+                            </div>
+                        </article>
 
                     </div>
 
